@@ -6,7 +6,7 @@ create this new site.
 [react-web]: https://reactjs.org/
 [webpack-web]: https://webpack.js.org/guides/getting-started/
 
-## Git Aliases
+## Git Aliases for this project
 Aliases for most common git commands:
 - `co = checkout`
 - `ci = commit`
