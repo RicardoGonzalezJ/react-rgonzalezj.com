@@ -1,5 +1,5 @@
 # react-rgonzalezj.com
-This project is to update my personal resume online. I'll be using **[webpack guides][webpack-web]** and **[react][react-web]** to
+This project is to update my personal online resume. I'll be using **[webpack guides][webpack-web]** and **[react][react-web]** to
 create this new site.
 
 [comment]: <> (This are links for above code.)
