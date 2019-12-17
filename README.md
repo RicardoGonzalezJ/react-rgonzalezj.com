@@ -5,3 +5,11 @@ create this new site.
 [comment]: <> (This are links for above code.)
 [react-web]: https://reactjs.org/
 [webpack-web]: https://webpack.js.org/guides/getting-started/
+
+## Git Aliases
+Aliases for most common git commands:
+- `co = checkout`
+- `ci = commit`
+- `st = status`
+- `br = branch`
+- `hist = log`
