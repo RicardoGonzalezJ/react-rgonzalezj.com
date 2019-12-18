@@ -6,14 +6,16 @@ module.exports = {
   // setting wp to development mode
   mode: 'development',
   entry: {
-    app: './src/index.js',
+    app: './src/App.jsx',
   },
   // source map to track down errors that comes from files
   devtool: 'inline-source-map',
   // config for wp-dev-server
   devServer: {
-    contentBase: path.resolve(__dirname, 'dist'),
+    // contentBase: path.resolve(__dirname, 'dist'),
     hot: true,
+
+    compress: true,
   },
   module: {
     rules: [
@@ -24,7 +26,22 @@ module.exports = {
           'css-loader',
         ],
       },
+      {
+        test: /\.(js|jsx)$/,
+        exclude: [
+          /(node_modules|bower_components)/,
+        ],
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env', '@babel/preset-react'],
+          },
+        },
+      },
     ],
+  },
+  resolve: {
+    extensions: ['*', '.js', '.jsx'],
   },
   plugins: [
     // to clean dist folder after run build
@@ -32,6 +49,7 @@ module.exports = {
     // to create new index.html in case entry points change.
     new HmtlWebpackPlugin({
       title: 'Hot Module Replacement',
+      template: 'public/index.html',
     }),
   ],
   output: {
