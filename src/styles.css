@@ -1,3 +1,13 @@
 body {
     background: red;
 }
+
+.container-fluid {
+    background-color: burlywood;
+    height: 500px;
+}
+
+.navbar-logo {
+    width: 40px;
+    height: 40px;
+}
