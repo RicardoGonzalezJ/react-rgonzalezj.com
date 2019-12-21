@@ -1,0 +1,24 @@
+.navbar-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.btn-social-icon {
+    margin: 2px;
+}
+
+@media only screen and (max-width: 991px) {
+    button.navbar-toggler {
+        order: 1;
+    }
+    .navbar-nav.right-ul-nav {
+        display: inline;
+        order: 0;
+        margin-right: 0;
+    }
+
+    .navbar-nav.right-ul-nav .nav-item {
+        position: relative;
+        display: inline-flex;
+    }
+}
