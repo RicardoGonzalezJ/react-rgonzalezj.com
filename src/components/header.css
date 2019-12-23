@@ -1,0 +1,41 @@
+#header.container-fluid {
+    width: auto;
+    height: auto;
+    
+}
+#header #btn-div {
+    margin-top: 10px;
+}
+#header button.float-rsm {
+    align-self: flex-end;
+    float: right;
+}
+
+#header #btn-div button.btn {
+    font-size: .8em;
+    background: #000000;
+    border-radius: 0%;
+    color: white;
+}
+
+#header #btn-div button i {
+    margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+    #header.container-fluid {
+        width: auto;
+        height: auto;
+        text-align: center;
+        
+    }
+    #header button.float-rsm {
+      float: none;
+    }
+  }
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+  }

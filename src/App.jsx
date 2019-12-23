@@ -5,11 +5,13 @@ import 'bootstrap';
 import 'bootstrap-social';
 import './styles.css';
 import Navbar from './components/Navbar';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="container-fluid">
       <Navbar />
+      <Header />
       <h1>This is React App.js</h1>
     </div>
   );
