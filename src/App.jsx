@@ -6,13 +6,14 @@ import 'bootstrap-social';
 import './styles.css';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
+import Sidebar from './components/LeftSection';
 
 function App() {
   return (
     <div className="container-fluid">
       <Navbar />
       <Header />
-      <h1>This is React App.js</h1>
+      <Sidebar />
     </div>
   );
 }
