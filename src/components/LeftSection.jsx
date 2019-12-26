@@ -3,14 +3,14 @@ import './leftsection.css';
 
 function LeftSection() {
   return (
-    <div id="left-sec">
+    <div className="container-fluid" id="left-sec">
       <div className="row">
-        <div className="col-md-4">
-          <img src="../public/images/marciano.jpg" alt="" />
+        <div className="col-xs-12 col-md-4">
+          <img className="img-responsive" src="../public/images/marciano.jpg" alt="" />
         </div>
       </div>
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-xs-12 col-md-4">
           <ul className="general-info">
             <h3>General Information</h3>
             <li>

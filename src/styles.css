@@ -1,8 +1,9 @@
 body {
-    background: red;
+    background: #4A4B4C;
 }
 
 .container-fluid {
     background-color: burlywood;
-    height: 500px;
+    width: auto;
+    height: auto;
 }
