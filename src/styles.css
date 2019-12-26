@@ -7,3 +7,27 @@ body {
     width: auto;
     height: auto;
 }
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .container-fluid {
+        background-color: burlywood;
+        max-width: 720px;
+        height: auto;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1199px) {
+    .container-fluid {
+        background-color: burlywood;
+        max-width: 960px;
+        height: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-fluid {
+        background-color: burlywood;
+        max-width: 1140px;
+        height: auto;
+    }
+}

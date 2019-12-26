@@ -22,7 +22,7 @@
     margin-left: 5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #header.container-fluid {
         width: auto;
         height: auto;
@@ -38,4 +38,40 @@
     display: block;
     clear: both;
     content: "";
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    #header.container-fluid {
+        max-width: 720px;
+        height: auto;
+        text-align: center;
+        
+    }
+    #header button.float-rsm {
+      float: right;
+    }
+  }
+
+  @media (min-width: 993px) and (max-width: 1199px){
+    #header.container-fluid {
+        max-width: 960px;
+        height: auto;
+        text-align: center;
+        
+    }
+    #header button.float-rsm {
+      float: right !important;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    #header.container-fluid {
+        max-width: 1140px;
+        height: auto;
+        text-align: center;
+        
+    }
+    #header button.float-rsm {
+      float: right !important;
+    }
   }
