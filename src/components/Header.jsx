@@ -3,9 +3,9 @@ import './header.css';
 
 function Header() {
   return (
-    <div className="container-fluid" id="header">
+    <div id="header">
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-4 tag-name">
           <h1>rgonzalezj.com</h1>
         </div>
         <div className="col-md-4 offset-md-4 clearfix" id="btn-div">

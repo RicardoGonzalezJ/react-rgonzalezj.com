@@ -3,12 +3,12 @@ import './leftsection.css';
 
 function LeftSection() {
   return (
-    <div className="container-fluid" id="left-sec">
-      <div className="row no-gutters justify-content-center">
-        <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-12">
+    <div id="body-content">
+      <div className="row no-gutters justify-content-center" id="left-sec">
+        <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-12" id="left-sec-img">
           <img className="img-fluid" src="../public/images/marciano.jpg" alt="" />
         </div>
-        <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-12">
+        <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-12" id="left-sec-sb">
           <ul className="general-info">
             <h3>General Information</h3>
             <li>

@@ -7,6 +7,7 @@ import './styles.css';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Sidebar from './components/LeftSection';
+import MainContent from './components/MainContent';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Header />
       <Sidebar />
+      <MainContent />
     </div>
   );
 }
