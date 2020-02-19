@@ -8,14 +8,20 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Sidebar from './components/LeftSection';
 import MainContent from './components/MainContent';
+import ResumeData from './resumeData.json';
 
 function App() {
+  console.log(ResumeData);
   return (
     <div className="container-fluid">
       <Navbar />
       <Header />
       <Sidebar />
-      <MainContent />
+      <MainContent
+        title={ResumeData.about.title}
+        name={ResumeData.about.name}
+        description={ResumeData.about.description}
+      />
     </div>
   );
 }
