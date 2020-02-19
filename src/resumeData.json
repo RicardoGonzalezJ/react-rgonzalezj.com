@@ -1,0 +1,21 @@
+{
+    "about": {
+        "title" : "Industrial and System Engineer",
+        "name" : "Ricardo A. Gonzalez J.",
+        "description" : "I'm technology enthusiast, love programming in node js using express js.",
+        "intuition": "80%",
+        "Leadership": "85%",
+        "TeamWork": "95%"
+    },
+    "Skills": {
+        "title": "My Skills",
+        "description": "I'm good at programming. I love working with Node js specially with Express js",
+        "Development": "90%",
+        "Express js": "85%",
+        "Node js" : "80%",
+        "Git" : "80%",
+        "Bootstrap" : "75%",
+        "React" : "45%",
+        "Webpack" : "45%"
+    }
+}
